@@ -4,7 +4,11 @@ import org.junit.Before;
 import org.junit.Test;
 
 /**
- * @author pedro.
+ * Test class created to check the correct behaviour of FizzBuzzMachine program. FuzzBuzzMachine it's a little program
+ * created to return some console output when some of the next conditions appears in a set of integers. The behaviour
+ * it's described in the class javadoc.
+ *
+ * @author Pedro Vicente Gómez Sánchez.
  */
 public class FizzBuzzMachineTest {
 
@@ -27,7 +31,7 @@ public class FizzBuzzMachineTest {
      */
 
     @Test
-    public void test(){
+    public void test() {
 
     }
 
