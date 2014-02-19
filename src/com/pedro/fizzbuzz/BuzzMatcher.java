@@ -9,9 +9,17 @@ package com.pedro.fizzbuzz;
  */
 class BuzzMatcher implements Matcher {
 
+    /*
+     * Constants
+     */
+    private final static String BUZZ = "BUZZ";
+
+    /*
+     * Implemented methods
+     */
 
     @Override
     public String evaluate(int value) {
-        return "";
+        return value % 5 == 0 ? BUZZ : "";
     }
 }
