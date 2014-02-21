@@ -4,3 +4,8 @@
 # Intelli J files
 .idea/
 *.iml
+
+# Maven
+pom.properties
+*.jar
+target/*

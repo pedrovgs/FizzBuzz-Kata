@@ -1,5 +1,7 @@
 package com.pedro.fizzbuzz;
 
+import com.pedro.fizzbuzz.FizzBuzzer;
+import com.pedro.fizzbuzz.Matcher;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mock;

@@ -1,5 +1,6 @@
 package com.pedro.fizzbuzz;
 
+import com.pedro.fizzbuzz.FizzBuzzMachine;
 import org.junit.Before;
 import org.junit.Test;
 
