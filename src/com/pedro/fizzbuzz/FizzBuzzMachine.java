@@ -19,16 +19,18 @@ public class FizzBuzzMachine {
     /*
      * Attributes
      */
-    private List<Matcher> matchers;
+
+    private final FizzBuzzer fizzBuzzer;
 
     /*
      * Constructor
      */
 
     public FizzBuzzMachine() {
-        matchers = new LinkedList<Matcher>();
-        matchers.add(new FizzMatcher());
-        matchers.add(new BuzzMatcher());
+        List<Matcher> fizzBuzzMatchers = new LinkedList<Matcher>();
+        fizzBuzzMatchers.add(new FizzMatcher());
+        fizzBuzzMatchers.add(new BuzzMatcher());
+        fizzBuzzer = new FizzBuzzer(fizzBuzzMatchers);
     }
 
     /*
@@ -46,16 +48,8 @@ public class FizzBuzzMachine {
      * the value if the parameter isn't multiple of 3 or 5
      */
     public String execute(Integer value) {
-        String result = "";
-        result = executeMatchers(value, result);
-        result = result.isEmpty() ? value.toString() : result;
-        return result;
+        String result = fizzBuzzer.execute(value);
+        return result.isEmpty() ? value.toString() : result;
     }
 
-    private String executeMatchers(Integer value, String result) {
-        for (Matcher matcher : matchers) {
-            result += matcher.evaluate(value);
-        }
-        return result;
-    }
 }

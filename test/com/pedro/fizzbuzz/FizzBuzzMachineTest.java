@@ -63,17 +63,17 @@ public class FizzBuzzMachineTest {
 
     @Test
     public void shouldReturnFizzWithAMultipleOfThree() {
-        assertEquals(FIZZ,fizzBuzzMachine.execute(9));
+        assertEquals(FIZZ, fizzBuzzMachine.execute(9));
     }
 
     @Test
     public void shouldReturnBuzzWithAMultipleOfFive() {
-        assertEquals(BUZZ,fizzBuzzMachine.execute(50));
+        assertEquals(BUZZ, fizzBuzzMachine.execute(50));
     }
 
     @Test
     public void shouldReturnFizzBuzzWithAMultipleOfThreeAndFive() {
-        assertEquals(FIZZBUZZ,fizzBuzzMachine.execute(90));
+        assertEquals(FIZZBUZZ, fizzBuzzMachine.execute(90));
     }
 
 
