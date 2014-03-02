@@ -29,8 +29,8 @@ class BuzzMatcher extends NumericMatcher {
      * Constants
      */
 
-    private final static int VALUE_TO_DIVIDE = 5;
-    private final static String BUZZ = "BUZZ";
+    private static final int VALUE_TO_DIVIDE = 5;
+    private static final String BUZZ = "BUZZ";
 
 
     /*

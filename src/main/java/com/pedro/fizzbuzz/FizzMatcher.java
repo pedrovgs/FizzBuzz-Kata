@@ -29,8 +29,8 @@ class FizzMatcher extends NumericMatcher {
      * Constants
      */
 
-    private final static int VALUE_TO_DIVIDE = 3;
-    private final static String FIZZ = "FIZZ";
+    private static final int VALUE_TO_DIVIDE = 3;
+    private static final String FIZZ = "FIZZ";
 
 
     /*

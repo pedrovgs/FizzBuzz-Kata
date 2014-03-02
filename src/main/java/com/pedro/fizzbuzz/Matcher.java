@@ -23,5 +23,5 @@ package com.pedro.fizzbuzz;
  */
 interface Matcher {
 
-    public String evaluate(final int value);
+    String evaluate(final int value);
 }
