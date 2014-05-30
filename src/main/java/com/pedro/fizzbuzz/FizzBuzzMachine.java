@@ -31,15 +31,7 @@ import java.util.List;
  */
 public class FizzBuzzMachine {
 
-    /*
-     * Attributes
-     */
-
     private final FizzBuzzer fizzBuzzer;
-
-    /*
-     * Constructor
-     */
 
     public FizzBuzzMachine() {
         List<Matcher> fizzBuzzMatchers = new LinkedList<Matcher>();
@@ -47,10 +39,6 @@ public class FizzBuzzMachine {
         fizzBuzzMatchers.add(new BuzzMatcher());
         fizzBuzzer = new FizzBuzzer(fizzBuzzMatchers);
     }
-
-    /*
-     * Public methods
-     */
 
     /**
      * Main FizzBuzzMachine method. This method will check if the number passed as parameter is fulfilling the condition

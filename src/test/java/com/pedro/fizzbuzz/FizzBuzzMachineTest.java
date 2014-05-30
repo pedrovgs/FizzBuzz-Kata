@@ -29,32 +29,16 @@ import static org.junit.Assert.assertEquals;
  */
 public class FizzBuzzMachineTest {
 
-    /*
-     * Constants
-     */
-
     private static final String FIZZ = "FIZZ";
     private static final String BUZZ = "BUZZ";
     private static final String FIZZBUZZ = "FIZZBUZZ";
 
-    /*
-     * Test data
-     */
-
     private FizzBuzzMachine fizzBuzzMachine;
-
-    /*
-     * Before and after methods
-     */
 
     @Before
     public void setUp() throws Exception {
         fizzBuzzMachine = new FizzBuzzMachine();
     }
-
-    /*
-     * Test methods
-     */
 
     @Test
     public void shouldReturnFizzWithTheValueThree() {

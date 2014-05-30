@@ -25,15 +25,7 @@ import java.util.List;
  */
 public class FizzBuzzer {
 
-    /*
-     * Attributes
-     */
-
     private List<Matcher> matcherList;
-
-    /*
-     * Constructor
-     */
 
     public FizzBuzzer(List<Matcher> matcherList) {
         this.matcherList = matcherList;

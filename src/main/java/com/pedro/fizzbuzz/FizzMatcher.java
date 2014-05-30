@@ -25,17 +25,8 @@ package com.pedro.fizzbuzz;
  */
 class FizzMatcher extends NumericMatcher {
 
-    /*
-     * Constants
-     */
-
     private static final int VALUE_TO_DIVIDE = 3;
     private static final String FIZZ = "FIZZ";
-
-
-    /*
-     * Implemented methods
-     */
 
     @Override
     protected int getValueToDivide() {

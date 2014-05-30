@@ -34,45 +34,24 @@ import static org.mockito.Mockito.when;
  */
 public class FizzBuzzerTest {
 
-    /*
-     * Constants
-     */
-
     private static final Integer ANY_INTEGER = 0;
     private static final int ONE = 1;
     private static final String MATCHER_ONE_RESULT = "one";
     private static final String MATCHER_TWO_RESULT = "two";
     public static final String EMPTY_RESULT = "";
 
-    /*
-     * Test data
-     */
-
     private FizzBuzzer fizzBuzzer;
-
-    /*
-     * Mocks
-     */
 
     @Mock
     private Matcher mockedMatcherOne;
     @Mock
     private Matcher mockedMatcherTwo;
 
-    /*
-     * Before and after methods
-     */
-
     @Before
     public void setUp() {
         initializeAnnotations();
         initializeFizzBuzzer();
     }
-
-
-    /*
-     * Test methods
-     */
 
     @Test
     public void shouldEvaluateEveryMatcherPasedInConstructor() {
@@ -113,11 +92,6 @@ public class FizzBuzzerTest {
 
         assertEquals(MATCHER_ONE_RESULT, fizzResult);
     }
-
-
-    /*
-     * Auxiliary methods
-     */
 
     private void initializeAnnotations() {
         MockitoAnnotations.initMocks(this);
