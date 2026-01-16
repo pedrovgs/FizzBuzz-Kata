@@ -1,4 +1,4 @@
-FizzBuzz [![Build Status](https://travis-ci.org/pedrovgs/FizzBuzz-Kata.svg?branch=master)](https://travis-ci.org/pedrovgs/FizzBuzz-Kata)
+FizzBuzz
 ========
 
 FizzBuzz kata implemented in java:
